@@ -27,11 +27,11 @@ mvn package
 You can run this example using:
 
 ```bash
-java -jar target/fhir-to-mongo-migration-0.0.1.jar
+java -jar target/fhir-to-mongo-camel-migration-0.0.1.jar
 ```
 
 or you can specify JS file location
 
 ```bash
-java -jar target/fhir-to-mongo-migration-0.0.1.jar --javascriptFileLocation=c:/script/mapper.js
+java -jar target/fhir-to-mongo-camel-migration-0.0.1.jar --javascriptFileLocation=c:/script/mapper.js
 ```
